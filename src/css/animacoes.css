@@ -1,0 +1,139 @@
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+    100%{
+        background-position: 0% 133%;
+    }
+}
+@keyframes chao {
+    0%{
+        background-color: #040d12;
+    }
+    30%{
+        background-color: #D7D0BE;
+    }
+    50%{
+       background-color:#072433;
+    }
+    70%{
+       background-color: #040d12;
+    }
+}
+@keyframes sol {
+    0%{
+        left: -12%;
+        top: 60%;
+        opacity: 0;
+    }
+    10%{
+        left: -12%;
+        top: 60%;
+        opacity: 1;
+    }
+
+    30%{
+        top: 16%;
+        opacity: 1;
+    }
+
+    50%{
+        top: 21%;
+        opacity: 0;
+    }
+    60%{
+        left:120%;
+        top: 60%;
+        opacity: 0;
+    }
+    100%{
+        left:120%;
+        opacity: 0;
+    }
+    
+}
+@keyframes animacaoTexto-bomdia {
+    0%{
+        opacity: 0;   
+    }
+    15%{
+        opacity: 0;
+    }
+    17%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes animacaoTexto-boanoite {
+    0%{
+        opacity: 0;
+    }
+    55%{
+        opacity: 0;
+    }
+    57%{
+        opacity: 1;
+    }
+    68%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes estrelas{
+    0%{
+        opacity: 1;
+        left: 6%;
+        transform: rotate3d(5, 2, 1, 45deg)
+    }
+    9%{
+        opacity: 1;  
+    }
+    15%{
+        opacity: 0;
+        left: 9%;
+    }
+    30%{
+        left: -9%;
+    }
+    40%{
+        opacity: 0;
+    }
+    45%{
+        opacity: 1;
+        transform: rotate3d(5, 2, 1, 49deg);
+    }
+    100%{
+        opacity: 1;
+        left: 6%;
+    }
+}
+@keyframes estrelaBrilhar {
+    0%{
+        opacity: 1;
+    }    
+    50%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+@keyframes bolaRolando {
+    0%{
+        margin-left: -100em;
+    }
+    100%{
+        margin-left: 70em;
+        width: 2em;
+        height: 2em;
+        margin-top: -2em;
+    }
+}

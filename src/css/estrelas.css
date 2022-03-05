@@ -1,0 +1,92 @@
+
+
+
+.estrela:nth-child(1) {  
+    width: 0.3em;
+    height: 0.3em;
+    left: 13%;
+    top: 59%;
+    animation-name: estrelaBrilhar;
+    animation-duration: 0.5s;
+    animation-delay: var(--delay);
+    animation-iteration-count: infinite;
+}
+.estrela:nth-child(2) {
+    width: 0.2em;
+    height: 0.2em;
+    left: 69%;
+    top: 56%;
+}
+.estrela:nth-child(3){
+    width: 0.2em;
+    height: 0.2em;
+    left: 89%;
+    top: 32%;
+    animation-name: estrelaBrilhar;
+    animation-duration: 0.5s;
+    animation-delay: var(--delay);
+    animation-iteration-count: infinite;
+}
+.estrela:nth-child(4){
+    width: 0.1em;
+    height: 0.1em;
+    left: 43%;
+    top: 31%;
+}
+.estrela:nth-child(5){
+    width: 0.1em;
+    height: 0.1em;
+    left: 16%;
+    top: 24%;
+    animation-name: estrelaBrilhar;
+    animation-duration: 0.5s;
+    animation-delay: var(--delay);
+    animation-iteration-count: infinite;
+}
+.estrela:nth-child(6){
+    width: 0.2em;
+    height: 0.2em;
+    left: 89%;
+    top: 76%;
+}
+.estrela:nth-child(7){
+    width: 0.2em;
+    height: 0.2em;
+    left: 30%;
+    top: 46%;
+    animation-name: estrelaBrilhar;
+    animation-duration: 0.5s;
+    animation-delay: var(--delay);
+    animation-iteration-count: infinite;
+}
+.estrela:nth-child(8){
+    width: 0.1em;
+    height: 0.1em;
+    left: 61%;
+    top: 38%;
+    animation-name: estrelaBrilhar;
+    animation-duration: 0.5s;
+    animation-delay: var(--delay);
+    animation-iteration-count: infinite;
+}
+.estrela:nth-child(9){
+    width: 0.1em;
+    height: 0.1em;
+    left: 50%;
+    top: 60%;
+    animation-name: estrelaBrilhar;
+    animation-duration: 0.5s;
+    animation-delay: var(--delay)s;
+    animation-iteration-count: infinite;
+}
+.estrela:nth-child(10){
+    width: 0.3em;
+    height: 0.3em;
+    left: 96%;
+    top: 50%;
+    animation-name: estrelaBrilhar;
+    animation-duration: 0.5s;
+    animation-delay: var(--delay)s;
+    animation-iteration-count: infinite;
+
+}
